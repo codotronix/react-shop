@@ -1,0 +1,81 @@
+[
+    {
+      "name": "Electronics",
+      "catList": [
+        {
+          "name": "Televisions"
+        },
+        {
+          "name": "Cameras"
+        },
+        {
+          "name": "Air Conditioners"
+        }
+      ]
+    },
+    {
+        "name": "Mobiles, Computers",
+        "catList": [
+          {
+            "name": "Mobile Phones"
+          },
+          {
+            "name": "Tablets"
+          },
+          {
+            "name": "Laptops"
+          },
+          {
+            "name": "Desktops"
+          }
+        ]
+      },
+    {
+      "name": "Sports"
+    },
+    {
+      "name": "Fashion",
+      "catList": [
+        {
+          "name": "Men's Fashion",
+          "catList": [
+            {
+              "name": "T-shirts & Polos"
+            },
+            {
+              "name": "Jeans"
+            },
+            {
+              "name": "Watches"
+            },
+            {
+              "name": "Shoes"
+            }
+          ]
+        },
+        {
+            "name": "Women's Fashion",
+            "catList": [
+              {
+                "name": "Western Wear"
+              },
+              {
+                "name": "Ethnic Wear"
+              },
+              {
+                "name": "Jewellery"
+              },
+              {
+                "name": "Watches"
+              }
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Books"
+    },
+    {
+      "name": "Game Zone"
+    }
+  ]
