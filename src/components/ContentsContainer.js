@@ -1,11 +1,10 @@
 import React from 'react';
+import ContentItem from './ContentItem';
 
 function ContentsContainer (props) {
     let contents = props.contents.map(c => {
         return (
-            <li key={c.name} className="col s12 m4">
-                {c.name}
-            </li>
+            <ContentItem key={c.name} item={c}/>
         );
     })
     return (

@@ -7,12 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .contents-container {
   margin-left: 210px;
 }
@@ -21,4 +15,18 @@ code {
   width: 200px;
   border-right: 1px solid #ccc;
   padding: 10px 15px; 
+}
+
+.content-item .card {
+  overflow: hidden;
+}
+
+.content-item .card .card-image img.item-img {
+  width: auto;
+  margin: 0 auto;
+}
+
+.content-item .card .card-content {
+  height: 95px;
+  overflow: hidden;
 }
