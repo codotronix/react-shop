@@ -1,81 +1,103 @@
-[
-    {
-      "name": "Electronics",
-      "catList": [
+[   
+  {
+    "name": "Show all",
+    "filterTerm": "showAll"
+  },
+  {
+    "name": "Electronics",
+    "subCatList": [
+      {
+        "name": "Televisions",
+        "filterTerm": "tv"
+      },
+      {
+        "name": "Cameras",
+        "filterTerm": "camera"
+      },
+      {
+        "name": "Air Conditioners",
+        "filterTerm": "ac"
+      }
+    ]
+  },
+  {
+      "name": "Mobiles, Computers",
+      "subCatList": [
         {
-          "name": "Televisions"
+          "name": "Mobile Phones",
+          "filterTerm": "mobile"
         },
         {
-          "name": "Cameras"
+          "name": "Tablets",
+          "filterTerm": "tablet"
         },
         {
-          "name": "Air Conditioners"
+          "name": "Laptops",
+          "filterTerm": "laptop"
+        },
+        {
+          "name": "Desktops",
+          "filterTerm": "desktop"
         }
       ]
     },
-    {
-        "name": "Mobiles, Computers",
-        "catList": [
+  {
+    "name": "Sports",
+    "filterTerm": "sport"
+  },
+  {
+    "name": "Fashion",
+    "subCatList": [
+      {
+        "name": "Men's Fashion",
+        "subCatList": [
           {
-            "name": "Mobile Phones"
+            "name": "T-shirts & Polos",
+            "filterTerm": "men-tshirt"
           },
           {
-            "name": "Tablets"
+            "name": "Jeans",
+            "filterTerm": "mean-jeans"
           },
           {
-            "name": "Laptops"
+            "name": "Watches",
+            "filterTerm": "men-watch"
           },
           {
-            "name": "Desktops"
+            "name": "Shoes",
+            "filterTerm": "men-shoe"
           }
         ]
       },
-    {
-      "name": "Sports"
-    },
-    {
-      "name": "Fashion",
-      "catList": [
-        {
-          "name": "Men's Fashion",
-          "catList": [
+      {
+          "name": "Women's Fashion",
+          "subCatList": [
             {
-              "name": "T-shirts & Polos"
+              "name": "Western Wear",
+              "filterTerm": "women-western-wear"
             },
             {
-              "name": "Jeans"
+              "name": "Ethnic Wear",
+              "filterTerm": "women-ethnic-wear"
             },
             {
-              "name": "Watches"
+              "name": "Jewellery",
+              "filterTerm": "women-jewellery"
             },
             {
-              "name": "Shoes"
+              "name": "Watches",
+              "filterTerm": "women-watch"
             }
           ]
-        },
-        {
-            "name": "Women's Fashion",
-            "catList": [
-              {
-                "name": "Western Wear"
-              },
-              {
-                "name": "Ethnic Wear"
-              },
-              {
-                "name": "Jewellery"
-              },
-              {
-                "name": "Watches"
-              }
-            ]
-          }
-      ]
-    },
-    {
-      "name": "Books"
-    },
-    {
-      "name": "Game Zone"
-    }
-  ]
+        }
+    ]
+  },
+  {
+    "name": "Books",
+    "filterTerm": "book"
+  },
+  {
+    "name": "Game Zone",
+    "filterTerm": "game"
+  }
+]
