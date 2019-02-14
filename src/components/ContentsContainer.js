@@ -9,6 +9,9 @@ function ContentsContainer (props) {
     })
     return (
     <ul className="row contents-container">
+        {props.contents.length <= 0 && 
+            <h2>Sorry! no content available :( </h2>
+        }
         {contents}
     </ul>);
 }

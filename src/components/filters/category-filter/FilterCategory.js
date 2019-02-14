@@ -20,8 +20,9 @@ class FilterCategory extends React.Component {
 
     render () {
         return (
-            <div className="category-filter">
-                <CatContainer list={this.state.catList} />
+            <div className="category-filter no-select">
+                <label className="left-bar-title">Category filter</label>
+                <CatContainer list={this.state.catList} filterOnCategory={this.props.filterOnCategory}/>
             </div>
         );
     }

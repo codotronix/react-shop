@@ -6,7 +6,7 @@ class Leftbar extends React.Component {
     render () {
         return (
             <div className="leftbar">
-                <FilterCategory />
+                <FilterCategory filterOnCategory={this.props.filterOnCategory}/>
             </div>
         )
     }
