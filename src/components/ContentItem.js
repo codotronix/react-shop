@@ -7,16 +7,21 @@ function ContentItem (props) {
                 <div className="card-image">
                     <img src={props.item.imgUrl} alt="product" className="item-img"/>
                     <span className="card-title"></span>
-                    <a href="/" className="btn-floating halfway-fab waves-effect waves-light red">
-                        {/* <i className="material-icons">add</i> */}
+                    <button className="btn-floating halfway-fab waves-effect waves-light red">
                         <i className="fas fa-heart"></i>
-                    </a>
+                    </button>
                 </div>
                 <div className="card-content">                        
                     <span>{props.item.name.substr(0,100)}</span>
                     { props.item.name.length > 100 &&
                         <strong title={props.item.name}> ...</strong>
                     }
+                </div>
+                <div className="card-action">
+                    <a href={props.item.url} target="_blank">
+                        Buy from Amazon &nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>

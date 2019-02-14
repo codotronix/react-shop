@@ -7,13 +7,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/******************************************************
+ *  UTILITY CLASSES
+ *****************************************************/
+  .hidden {
+    display: none;
+  }
+ /****************************************************/ 
+
 .contents-container {
   margin-left: 210px;
 }
 .leftbar {
   float: left;
   width: 200px;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ddd;
   padding: 10px 15px; 
 }
 
@@ -30,3 +39,11 @@ body {
   height: 95px;
   overflow: hidden;
 }
+
+/******************************************************
+ *  CATEGORY FILTER CLASSES
+ *****************************************************/
+ .category-filter ul {
+   padding-left: 15px;
+ }
+ /****************************************************/

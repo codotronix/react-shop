@@ -4,48 +4,55 @@
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41a3jxiKR+L._AC_US160_FMwebp_QL70_.jpg",
         "oldPrice": 77200,
-        "newPrice": 68990
+        "newPrice": 68990,
+        "url": "https://amzn.to/2SxT1T6"
     },
     {
         "name": "HP 14Q CS0009TU 2018 14-inch Laptop (7th Gen Core i3 7020U/4GB/1TB/DOS 2.0/Integrated Graphics), Jet Black",
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41WiDNMkamL._AC_US160_FMwebp_QL70_.jpg",
         "oldPrice": 32917,
-        "newPrice": 25490
+        "newPrice": 25490,
+        "url": "https://amzn.to/2UYiRMC"
     },
     {
         "name": "HP 15 Intel Core i5 15.6-inch Full HD Laptop(8GB DDR4/1TB HDD/Win 10/MS Office/Integrated Graphics/Sparkling Black/2.04 kg), 15q-ds0029TU",
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41uqVCq2WuL._AC_US160_FMwebp_QL70_.jpg",
         "oldPrice": 51810,
-        "newPrice": 45990
+        "newPrice": 45990,
+        "url": "https://amzn.to/2TQmFjc"
     },
     {
         "name": "Dell Vostro 3568 Intel Core i3 6th Gen 15.6-inch Laptop (4GB/1TB HDD/Windows 10 Home/MS Office/ Black/ 2.18 kg) (8X6J5)",
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41rCcAXZK-L._AC_US160_FMwebp_QL70_.jpg",
         "oldPrice": 38097,
-        "newPrice": 29499
+        "newPrice": 29499,
+        "url": "https://amzn.to/2X4OdDd"
     },
     {
         "name": "Acer Aspire 3 Intel Celeron 15.6-inch FHD Laptop (4GB/500 GB HDD/Windows 10 Home/Obsidian Black/2.1 Kg), A315-33",
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41hv-P3tqCL._AC_US160_FMwebp_QL70_.jpg",
         "oldPrice": 27999,
-        "newPrice": 17990
+        "newPrice": 17990,
+        "url": "https://amzn.to/2GnRkRT"
     },
     {
         "name": "HP Pavilion x360 Intel Core i3 8th Gen 14-inch Touchscreen 2-in-1 FHD Thin and Light Laptop (4GB/1TB+8GB SSHD/Windows 10 Home/MS Office/Natural Silver/1.59 kg), cd0077TU",
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/51q8JhYbBDL._AC_US160_FMwebp_QL70_.jpg",
         "oldPrice": 53947,
-        "newPrice": 48490
+        "newPrice": 48490,
+        "url": "https://amzn.to/2X4Cy7I"
     },
     {
         "name": "Lenovo ideapad 330 81DE01K3IN 15.6-inch Laptop (I3-7020U/4GB + 16 GB Optane/1TB/Windows 10 Home/2 Graphics), Onyx Black",
         "cat": "electronics",
         "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41Dl5xLFl+L._AC_US160_FMwebp_QL70_.jpg  ",
         "oldPrice": 49090,
-        "newPrice": 35990
+        "newPrice": 35990,
+        "url": "https://amzn.to/2UXNvWt"
     }
 ]
