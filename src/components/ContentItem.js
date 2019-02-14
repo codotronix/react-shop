@@ -18,9 +18,9 @@ function ContentItem (props) {
                     }
                 </div>
                 <div className="card-action">
-                    <a href={props.item.url} target="_blank">
+                    <a href={props.item.url} target="_blank" rel="noopener noreferrer">
                         Buy from Amazon &nbsp;
-                        <i class="fas fa-arrow-right"></i>
+                        <i className="fas fa-arrow-right"></i>
                     </a>
                 </div>
             </div>

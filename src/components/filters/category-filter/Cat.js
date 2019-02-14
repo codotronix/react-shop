@@ -9,26 +9,37 @@ class Cat extends React.Component {
     };
   }
 
-  toggleVisibilitySubCat(e) {
+  handleCategoryClick(e) {
     //this.state.subcatHidden =
     e.stopPropagation();
-    let b = this.state.subcatHidden;
-    this.setState({ subcatHidden: !b });
+
+    // If Subcategories present, then we just need to toggle visibility
+    if(this.props.category.subCatList) {
+        let b = this.state.subcatHidden;
+        this.setState({ subcatHidden: !b });
+    }
+    // else we need to filter according to this category
+    else {
+        this.props.filterOnCategory(this.props.category.filterTerm);
+    }
+
+    
   }
 
   render() {
     return (
-      <li onClick={e => this.toggleVisibilitySubCat(e)}>
-        {this.props.val.name + ' '}
-        {(this.props.val.catList && !this.state.subcatHidden) &&
-            <i class="fas fa-chevron-down"></i>
+      <li onClick={e => this.handleCategoryClick(e, this.props.category)} className="cat-item">        
+        {(this.props.category.subCatList && !this.state.subcatHidden) &&
+            <i className="fas fa-chevron-down arrow-icon"></i>
         }
-        {(this.props.val.catList && this.state.subcatHidden) &&
-            <i class="fas fa-chevron-up"></i>
+        {(this.props.category.subCatList && this.state.subcatHidden) &&
+            <i className="fas fa-chevron-up arrow-icon"></i>
         }
+        {' ' + this.props.category.name}
         <CatContainer
-          list={this.props.val.catList || []}
+          list={this.props.category.subCatList || []}
           subcatHidden={this.state.subcatHidden}
+          filterOnCategory={this.props.filterOnCategory}
         />
       </li>
     );

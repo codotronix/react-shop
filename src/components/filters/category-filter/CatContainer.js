@@ -1,15 +1,18 @@
 import React from "react";
 import Cat from "./Cat";
+ 
+class CatContainer extends React.Component {
+  returnCat(c) {
+    return <Cat category={c} key={c.name} filterOnCategory={this.props.filterOnCategory}/>;
+  }
 
-function returnCat(c, tabIndex) {
-  return <Cat val={c} />;
-}
-function CatContainer(props) {
-  return (
-    <ul className={props.subcatHidden ? "hidden" : ""}>
-      {props.list.map(c => returnCat(c))}
-    </ul>
-  );
+  render () {
+    return (
+      <ul className={this.props.subcatHidden ? "hidden" : ""}>
+        {this.props.list.map(c => this.returnCat(c))}
+      </ul>
+    );
+  }  
 }
 
 export default CatContainer;
