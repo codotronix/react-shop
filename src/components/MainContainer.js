@@ -1,6 +1,7 @@
 import React from 'react';
 import ContentsContainer from './ContentsContainer';
 import LeftBar from './LeftBar';
+// import Headbar from './Headbar';
 
 class MainContainer extends React.Component {
     constructor(props) {
@@ -56,7 +57,9 @@ class MainContainer extends React.Component {
     render () {        
         return (
             <div className={'main-container ' + (this.state.leftbarCollapsed ? 'leftbar-collapsed': '')}>
-                <i className="fas fa-filter leftbar-collapser" onClick={e=>this.toggleLeftbar(e)}></i>
+                <i className="fas fa-filter leftbar-collapser light-blue lighten-1" onClick={e=>this.toggleLeftbar(e)}></i>
+
+                {/* <Headbar /> */}
                 <LeftBar filterOnCategory={this.filterOnCategory}/>
                 <ContentsContainer contents={this.state.contents} />
             </div>

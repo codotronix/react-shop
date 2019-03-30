@@ -8,7 +8,7 @@ function ContentItem (props) {
                     <img src={props.item.imgUrl} alt="product" className="item-img"/>
                     <span className="card-title"></span>
                     <button className="btn-floating halfway-fab waves-effect waves-light red">
-                        <i className="fas fa-heart"></i>
+                        <i className="fas fa-heart orange darken-3"></i>
                     </button>
                 </div>
                 <div className="card-content">                        

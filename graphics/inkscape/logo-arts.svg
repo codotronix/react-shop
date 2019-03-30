@@ -146,9 +146,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.47"
-     inkscape:cx="-534.9537"
-     inkscape:cy="1006.2588"
+     inkscape:zoom="4.5749809"
+     inkscape:cx="-556.52193"
+     inkscape:cy="988.22506"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -157,9 +157,9 @@
      showguides="true"
      inkscape:snap-bbox="true"
      inkscape:window-width="1366"
-     inkscape:window-height="719"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -169,7 +169,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -187,7 +187,7 @@
            height="125.71429"
            x="-1297.1428"
            y="-136.20924" /></flowRegion><flowPara
-         id="flowPara4142"></flowPara></flowRoot>    <g
+         id="flowPara4142" /></flowRoot>    <g
        id="g4322">
       <path
          d="m -325.08267,-93.672182 q -7.20669,0 -11.46519,5.372265 -4.22575,5.372263 -4.22575,14.642696 0,9.237674 4.22575,14.609937 4.2585,5.372265 11.46519,5.372265 7.2067,0 11.39968,-5.372265 4.22575,-5.372263 4.22575,-14.609937 0,-9.270433 -4.22575,-14.642696 -4.19298,-5.372265 -11.39968,-5.372265 z m 0,-5.372264 q 10.28592,0 16.44437,6.911876 6.15846,6.879119 6.15846,18.475349 0,11.563471 -6.15846,18.475348 -6.15845,6.879118 -16.44437,6.879118 -10.31867,0 -16.50988,-6.879118 -6.15845,-6.87912 -6.15845,-18.475348 0,-11.59623 6.15845,-18.475349 6.19121,-6.911876 16.50988,-6.911876 z"
@@ -608,6 +608,23 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';letter-spacing:0px;word-spacing:0px;fill:#ff6900;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          id="path4879"
          inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4297"
+       transform="translate(5.9016641,-35.628565)"
+       inkscape:export-filename="G:\Code\react-shop\graphics\exported-png\img-for-favicon.png"
+       inkscape:export-xdpi="1043.1166"
+       inkscape:export-ydpi="1043.1166">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4263"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';letter-spacing:0px;word-spacing:0px;fill:#0069ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -584.72838,74.213614 q 0,0.965288 -0.26252,1.763735 -0.24501,0.78653 -0.78754,1.358553 -0.52503,0.560104 -1.34758,0.86995 -0.80505,0.309845 -1.90761,0.309845 -1.10256,0 -1.92511,-0.309845 -0.80505,-0.309846 -1.34758,-0.86995 -0.52503,-0.572023 -0.78754,-1.358553 -0.26252,-0.798447 -0.26252,-1.763735 0,-0.965287 0.26252,-1.763734 0.26251,-0.798449 0.78754,-1.358554 0.54253,-0.572022 1.34758,-0.881867 0.82255,-0.321762 1.92511,-0.321762 1.10256,0 1.90761,0.321762 0.82255,0.309845 1.34758,0.881867 0.54253,0.560105 0.78754,1.358554 0.26252,0.798447 0.26252,1.763734 z m -1.6801,0 q 0,-0.750779 -0.14001,-1.37047 -0.14,-0.61969 -0.45502,-1.060624 -0.31502,-0.45285 -0.82255,-0.70311 -0.49003,-0.250261 -1.20757,-0.250261 -0.71754,0 -1.22507,0.250261 -0.49003,0.25026 -0.80505,0.70311 -0.31502,0.440934 -0.47252,1.060624 -0.14001,0.619691 -0.14001,1.37047 0,0.750779 0.14001,1.37047 0.1575,0.61969 0.47252,1.060625 0.31502,0.440932 0.80505,0.691193 0.50753,0.238343 1.22507,0.238343 0.71754,0 1.20757,-0.238343 0.50753,-0.250261 0.82255,-0.691193 0.31502,-0.440935 0.45502,-1.060625 0.14001,-0.619691 0.14001,-1.37047 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4277"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';letter-spacing:0px;word-spacing:0px;fill:#ff6900;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -591.46187,73.681225 1.89902,0 0,-2.025621 1.04094,0 0,2.025621 1.89902,0 0,1.026877 -1.89902,0 0,2.039688 -1.04094,0 0,-2.039688 -1.89902,0 0,-1.026877 z" />
     </g>
   </g>
 </svg>
