@@ -5,7 +5,7 @@ class Cat extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      subcatHidden: false
+      subcatHidden: true
     };
   }
 
